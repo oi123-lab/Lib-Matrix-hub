@@ -1419,7 +1419,7 @@ local Crown = Create("ImageLabel", Topbar, {
         Position = UDim2.new(0, 10, 0.5, 0),
         AnchorPoint = Vector2.new(0, 0.5),
         AutoButtonColor = false,
-        Image = "rbxassetid://4155801252"
+        Image = "rbxassetid://93038192505798"
       }, {
         Corner()
       })
