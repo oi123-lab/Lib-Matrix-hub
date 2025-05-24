@@ -743,7 +743,7 @@ local Crown = Create("ImageLabel", Topbar, {
     if not WaitMinimize then
       WaitMinimize = true
       Window.Dialog:Create({
-        Title = "Você tem certeza de que deseja fechar o SHNMAXHUB?",
+        Title = "Você tem certeza de que deseja fechar o MATRIX HUB?",
         Confirm = {
           Text = "Close",
           Callback = function()
