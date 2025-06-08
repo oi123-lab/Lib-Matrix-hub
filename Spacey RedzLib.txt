@@ -1,11 +1,11 @@
 local Configs_HUB = {
-  Cor_Hub = Color3.fromRGB(15,45,46),
-  Cor_Options = Color3.fromRGB(15,45,46),
-  Cor_Stroke = Color3.fromRGB(15,45,46),
-  Cor_Text = Color3.fromRGB(15,45,46),
-  Cor_DarkText = Color3.fromRGB(15,45,46),
-  Corner_Radius = UDim.new(0, 4),
-  Text_Font = Enum.Font.FredokaOne
+  Cor_Hub = Color3.fromRGB(15, 45, 46),       -- Cor principal (verde escuro)
+  Cor_Options = Color3.fromRGB(25, 65, 66),   -- Cor mais clara para elementos secundários
+  Cor_Stroke = Color3.fromRGB(10, 35, 36),    -- Cor para bordas
+  Cor_Text = Color3.fromRGB(255, 255, 255),   -- Texto branco
+  Cor_DarkText = Color3.fromRGB(200, 200, 200), -- Texto cinza claro
+  Corner_Radius = UDim.new(0, 4),             -- Raio dos cantos
+  Text_Font = Enum.Font.FredokaOne            -- Fonte
 }
 
 local CoreGui = game:GetService("CoreGui")
